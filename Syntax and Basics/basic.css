@@ -20,6 +20,18 @@ nav {
     background-color: #defdde;
 }
 
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#level {
+    text-decoration: underline;
+    color: #6ec38c;
+    font-weight: 600;
+}
+
 .semi-bold {
     font-weight: 500;
 }
