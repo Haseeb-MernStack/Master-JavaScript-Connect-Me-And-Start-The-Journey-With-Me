@@ -1,4 +1,4 @@
-// Control and Structures
+// Functions
 
 // ******************** 1$t Topic ************************
 

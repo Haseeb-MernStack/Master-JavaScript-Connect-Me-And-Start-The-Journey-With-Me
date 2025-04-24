@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #defdde;
+}
+
+.semi-bold {
+    font-weight: 500;
+}
+
+.section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.user-table th,
+.user-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.user-table thead {
+    background-color: #e0e0e0;
+}
+
+.user-table .main-topic td {
+    background-color: #d0d0ff;
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: #defdde;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 14px;
+}
