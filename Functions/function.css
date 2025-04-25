@@ -26,6 +26,23 @@ nav {
     justify-content: space-between;
 }
 
+.rare {
+    font-weight: bold;
+}
+
+.red{
+    font-weight: bold;
+    color: red;
+}
+.blue{
+    font-weight: bold;
+    color: blue;
+}
+
+.bold{
+    font-weight:bold ;
+}
+
 #level {
     text-decoration: underline;
     color: #6ec38c;
