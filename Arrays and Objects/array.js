@@ -227,6 +227,67 @@
 
 //! slice
 
+//* What is slice()?
+
+// slice() is used to copy a part of an array into a new array.
+
+// It does NOT change the original array!
+
+// Parameter	Meaning
+
+// 1. startIndex	Where to start (inclusive)
+// 2. endIndex	    Where to stop (exclusive, not included)
+
+//*  Examples
+
+//! 1. Simple Slice
+
+// let fruits = ['apple', 'banana', 'orange', 'mango'];
+
+// let slicedFruits = fruits.slice(1, 3); // from index 1 to 2 (3 is not included)
+
+// console.log(slicedFruits);
+// Output: ['banana', 'orange']
+
+// console.log(fruits);
+// Output: ['apple', 'banana', 'orange', 'mango'] (original array unchanged)
+
+//! 2. Slice from a Start Index Only
+
+// let colors = ['red', 'green', 'blue', 'yellow'];
+
+// let newColors = colors.slice(2); // from index 2 to end
+
+// console.log(newColors);
+// Output: ['blue', 'yellow']
+
+//! 3. Slice with Negative Index
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// let lastTwo = numbers.slice(-2); // last 2 items
+
+// console.log(lastTwo);
+// Output: [4, 5]
+
+//*Important Differences: splice() vs slice()
+
+//! Feature	                       splice()	         slice()
+
+// 1. Changes original array?	   Yes	             No
+// 2. Removes/adds/replaces?	   Yes	             No (only copies)
+// 3. Returns	                   Removed items	 Copied items
+
+
+//! Quick Example.
+
+// let items = ['pen', 'pencil', 'eraser', 'sharpener'];
+
+// let someItems = items.slice(1, 3); // ['pencil', 'eraser']
+
+// console.log(items);     // ['pen', 'pencil', 'eraser', 'sharpener'] (no change)
+// console.log(someItems); // ['pencil', 'eraser']
+
 // map, filter, reduce, find, forEach, includes, indexOf
 
 // ******************** 3rd Topic ************************
