@@ -85,7 +85,6 @@
 // let unassignedValue;
 // console.log(unassignedValue);
 
-
 //! example for undefined.
 // const favNum = 18;
 // const res = favNum >= 18 ? undefined : "Not allowed";
@@ -103,7 +102,6 @@
 // };
 // console.log(obj[uniqueId]); // Output: 12345
 
-
 //! 7- bigint - a numeric data type that can represent integers with arbitrary precision. It is used to work with large integers that cannot be represented by the regular number type.
 
 // let bigIntValue = BigInt(123456789012345678901234567890);
@@ -117,9 +115,7 @@
 // const sum = largeNumber + anotherLargeNumber;
 // console.log(sum); // Output: 246913578024691356778954164946n
 
-
 // ******************** 3rd Topic ************************
-
 
 //! 3. Operators.
 
@@ -165,7 +161,6 @@
 // console.log(a); // 11 (a was increased)
 // console.log(b); // 10 (b got the original value before a increased)
 
-
 // console.log(a--); //! Postfix Decrement
 
 // let a = 10;
@@ -189,9 +184,7 @@
 // console.log(a); // 9 (a decreased)
 // console.log(b); // 9 (b got the new value)
 
-
 // console.log(a); //! Final value of a after all operations.
-
 
 //* 2- Assignment Operators - used to assign values to variables. The most common assignment operator is the equal sign (=).
 
@@ -286,12 +279,10 @@
 
 // (Very Useful) -> //! The syntax is: condition ? valueIfTrue : valueIfFalse.
 
-
 //* 1st example for Ternary Operator.
 
 // let age = 18;
 // let result = age >= 18 ? "Adult" : "Minor"; //! If age is greater than or equal to 18, result is "Adult", otherwise it's "Minor".
 // console.log(result); //* Output: "Adult"
-
 
 // ******************** Keep Coding ************************

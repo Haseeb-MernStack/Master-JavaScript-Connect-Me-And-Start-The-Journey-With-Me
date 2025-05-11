@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* html body */
 html,
 body {
     height: 100%;
@@ -12,6 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* nav */
 nav {
     display: flex;
     align-items: center;
@@ -20,6 +22,7 @@ nav {
     background-color: #defdde;
 }
 
+/* section header */
 .section-header {
     display: flex;
     align-items: center;
